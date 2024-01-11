@@ -1,0 +1,54 @@
+.flex{
+    display: flex;
+}
+
+.heading{
+    font-size: 30px;
+    color: var(--primaryColor);
+    font-weight: 600;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.about .primaryBtn {
+    margin-left: 20px;
+}
+
+.about .heading{
+    text-align: left;
+    margin:0;
+}
+
+.left{
+    width: 35%;
+}
+
+.right{
+    width: 65%;
+}
+
+
+@media only screen and (max-width:768px){
+    section{
+        height: 60vh;
+    }
+
+    .hero::after{
+        height: 60vh;
+    }
+
+    .left,.right{
+        width: 100%;
+
+      }
+
+    .left img{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+      .about{
+        height: auto;
+        margin-top: 50px;
+      }
+}

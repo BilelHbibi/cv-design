@@ -1,0 +1,26 @@
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+
+.services .box{
+    background-color: var(--primaryBackground);
+    padding: 35px;
+}
+
+.services h3{
+    margin-top: 20px;
+}
+
+.services i{
+    color: var(--primaryColor);
+}
+
+@media only screen and (max-width:768px){
+    .grid3,
+    .grid4{
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+

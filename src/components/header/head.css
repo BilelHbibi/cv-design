@@ -1,0 +1,121 @@
+.logo{
+    color: white;
+    padding-top: 20px;
+}
+
+.logo h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.logo span{
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.social i{
+    background-color: #eeecec54;
+    color: #1eb2a6;
+    font-size: 16px;
+    padding: 13px;
+    margin-right: 10px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.social i:hover{
+    background-color: #1eb2a6;
+    color: #fff;
+    cursor: pointer;
+}
+
+header{
+    max-width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #efe3e34c;
+    padding: 30px;
+    position: relative;
+    margin-bottom: 80vh;
+}
+
+ul li a{
+    color: #fff;
+    margin-right: 35px;
+    font-size: 17px;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+header ul li a:hover{
+    color: #1eb2a6;
+    cursor: pointer;
+}
+
+
+header span{
+    background-color: #1eb2a6;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;  
+    width: 19%;
+    clip-path: polygon(10% 0, 100% 1%, 100% 100%, 0% 100%);
+    color: white;  
+}
+
+header button{
+    display: none;
+    position: absolute;
+    right: 30px;
+    background: none;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+@media only screen and (max-width:768px) {
+    header{
+        background-color: #1eb2a6;
+        max-width: 100%;
+    }
+
+    header button{
+        display: block;
+        z-index: 999;
+    }
+
+    header span{
+        left: 40px;
+        clip-path: none;
+    }
+
+    header .flex{
+        display: none;
+    }
+
+   
+
+    header .block{
+        position: absolute;
+        left: 0;
+        top:0;
+        width: 100%;
+        background-color: #1eb2a6;
+        display: flex;
+        flex-direction: column; 
+        padding: 80px 0 20px 0;
+    }
+    header .block li{
+        margin-bottom: 30px;
+        padding-left: 10px;
+    }
+
+   
+    
+    
+
+}

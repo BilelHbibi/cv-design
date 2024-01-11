@@ -1,0 +1,75 @@
+.aboutCard{
+    height: auto;
+}
+.aboutCard .left img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.aboutCard .right{
+    padding: 50px 40px;
+}
+
+.aboutCard .right .nom{
+    text-align: left !important;
+    padding: 0;
+}
+
+.aboutCard  .box{
+      background-color: #fff;
+      margin: 35px 0;
+      padding: 30px;
+}
+
+.aboutCard  .box .img{
+    width: 30%;
+    margin-right: 20px;
+}
+.aboutCard  .box img{
+    width: 100%;
+}
+
+.aboutCard .box h3{
+    color: black;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.aboutCard  .box{
+  color: grey;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+/* --------------------------Wrapper-------------------------- */
+
+.wrapper{
+    background-image: url("../../../public/images/awrapper.webp");
+    background-size:cover;
+    height:auto;
+    background-position: center;
+}
+
+.wrapper .box{
+    align-items: center;
+    margin: 70px 0;
+    color: white;
+}
+
+.wrapper .box img{
+    width: 80%;
+}
+
+.wrapper .box .text{
+    margin-left: 5px;
+}
+
+.wrapper .box .text h3 .counter{
+    font-size: 50px;
+}
+
+.wrapper .box .text span{
+    font-size: 20px;
+    font-weight: 600;
+}

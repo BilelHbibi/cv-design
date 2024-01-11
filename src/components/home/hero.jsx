@@ -1,0 +1,33 @@
+import React from "react";
+import { home } from "../data/data";
+import "../css/hero.css";
+import Typewriter from "typewriter-effect";
+
+const hero = () => {
+  return (
+    <>
+      <section className="hero">
+        {home.map((val, i) => {
+          return (
+            <div className="heroContainer" >
+              <h3 data-aos="fade-right">{val.text}</h3>
+              <h1>
+                <Typewriter
+                  options={{
+                    strings: [`${val.name}`, `${val.post}`, `${val.design}`],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
+              </h1>
+              <p data-aos="fade-left">{val.desc}</p>
+              <button className="primaryBtn" data-aos="fade-up-right">Download CV</button>
+            </div>
+          );
+        })}
+      </section>
+    </>
+  );
+};
+
+export default hero;

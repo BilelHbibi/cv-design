@@ -1,0 +1,140 @@
+.coursesCard {
+    background-color: white;
+    padding: 30px;
+}
+
+.coursesCard .box .img{
+    background-color: #1eb2a6;
+    width:30%;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coursesCard .box .img img{
+    width: 60%;
+    height:50%;
+}
+
+.coursesCard .box .text{
+    margin-left: 15px;
+    width:100%;
+}
+
+
+
+.coursesCard .text .title{
+    height: 120px;
+}
+
+.coursesCard:nth-child(8) .text .title h2{
+    line-height: 50px;
+}
+
+.coursesCard:nth-child(7) .text .title h2,
+.coursesCard:nth-child(8) .text .title h2{
+    font-size: 35px;
+}
+
+.coursesCard .text .title h2{
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.coursesCard .degree{
+    color: #1eb2a6;
+    margin:20px 0 30px 0;
+}
+
+.coursesCard .box .text .log{
+    align-items: center;
+}
+
+
+.coursesCard .box .text .log img{
+    border-radius: 50%;
+    width: 50px;
+    height:50px;
+}
+
+.coursesCard .box .text .log p{
+    color: grey;
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight:500;
+    
+}
+
+.coursesCard p{
+    color: #1eb2a6;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.price{
+    width: 100%;
+    display: block;
+    padding: 8px;
+    font-size: 20px;
+    background-color:#f8f8f8 ;
+    color: #1eb2a6;
+    font-weight: 500;
+    margin: 30px 0;
+    text-align: center;
+}
+
+
+/* --------------onlineCourses----------------- */
+.onlineCourses{
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+.onlineCourses .box .img{
+    width: 100%;
+}
+
+.onlineCourses .box .img img:nth-child(2){
+    display: none;
+}
+
+.onlineCourses .box img{
+    width: 50%;
+}
+
+.onlineCourses .box .title{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.onlineCourses .box .price{
+    margin: 10px 0;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.onlineCourses:hover{
+    color: white;
+    background-color: #1eb2a6;
+    cursor: pointer;
+}
+
+.onlineCourses:hover .box .img img:nth-child(1){
+    display: none;
+}
+
+.onlineCourses:hover .box .img img:nth-child(2){
+    display: inline;
+}
+

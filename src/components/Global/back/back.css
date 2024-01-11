@@ -1,0 +1,34 @@
+.back{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../../..//public/images/back.webp");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.back .content{
+    text-align: center;
+    margin-top: 45vh;
+}
+
+.back .content span{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.back .content h1{
+    color: #fff;
+    font-size: 100px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width:768px) {
+    .back{
+        height: 80%;
+        background-position:center;
+    }
+}

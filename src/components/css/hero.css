@@ -1,0 +1,55 @@
+.primaryBtn{
+    background: none;
+    border: 1px solid var(--primaryColor);
+}
+
+section{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero{
+    position: relative;
+}
+
+.hero::after{
+    content: "";
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 90vh;
+    position: absolute;
+    background-image: url("../../../public/images/home-bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.heroContainer{
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--primaryColor);
+}
+
+
+
+
+@media only screen and (max-width:768px){
+    section{
+        height: 60vh;
+    }
+
+    .hero::after{
+        height: 60vh;
+    }
+    .heroContainer{
+        max-width: 80%;
+      }
+}

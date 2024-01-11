@@ -1,0 +1,65 @@
+.teamCard .box{
+    background-color: #fff;
+    padding-bottom: 50px;
+    transition: 0.5s;
+}
+
+.teamCard .img{
+    position: relative;
+}
+
+.teamCard img{
+    width: 100%;
+    height:380px;
+}
+.teamCard .text{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.teamCard .text h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.teamCard .text h4{
+    color: grey;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 15px;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+
+.teamCard .box .img .social{
+    display :block;
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    opacity: 0;
+}
+.teamCard .box .img .social i{
+    display :block;
+    margin-top: 10px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    width: 40px;
+}
+
+.teamCard .box .img .social i:hover{
+    background-color:#1eb2a6;
+}
+
+.teamCard .box:hover{
+    background-color: #1eb2a6;
+    cursor: pointer;
+    color: #fff;
+}
+.teamCard .box:hover h4{
+    color: #fff;
+}
+
+.teamCard .box:hover .img .social{
+    opacity: 1;
+}
